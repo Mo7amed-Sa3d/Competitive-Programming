@@ -15,12 +15,10 @@ int main(int argc, char* argv[]) {
     int t = 1;
     cout << t << "\n";
     while (t--){
-        int n = rand(2e5,2e5);
-        cout << n << "\n";  
-        for(int i =0 ; i < n; ++i)
-            cout << i + 1 << " "; 
-        cout << "\n";    
-
+        int a = rand(0,100);
+        int b = rand(0,100);
+        int c = rand(0,100);
+        cout << a << " " << b << " " << c << "\n";
     }
     
 }
